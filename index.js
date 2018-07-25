@@ -3,9 +3,7 @@ var http = require('http');
 var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    //response.end("Hello World!");
-    response.end(<strong>"Hello, Mr. Christopher Witcher! Removed :D"</strong>);
-
+    response.end("Hello World!");
 
 });
 
